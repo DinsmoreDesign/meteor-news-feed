@@ -1,3 +1,8 @@
+// Subscribe to collections to show on front-end.
+Meteor.subscribe("posts");
+Meteor.subscribe("ProfileImages");
+Meteor.subscribe("UserImages");
+
 // Accounts package setups
 Meteor.startup(function () {
 
