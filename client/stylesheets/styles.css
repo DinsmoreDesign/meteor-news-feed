@@ -73,7 +73,7 @@ p {
 	}
 .footer {
 	background-color: #8552D0;
-	padding: 25px;
+	padding: 22px;
 }
 	.footer p {
 		color: #FFF;
@@ -82,3 +82,19 @@ p {
 	.footer a {
 		color: #FFF;
 	}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border: none;
+	     -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #FFF;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #FFF;
+}
+.navbar-inverse .navbar-toggle:hover .icon-bar,
+.navbar-inverse .navbar-toggle:focus .icon-bar {
+	background-color: #8552D0;
+}
