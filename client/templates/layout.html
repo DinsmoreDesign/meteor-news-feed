@@ -4,11 +4,16 @@
 
 <template name="layout">
 	{{> navbar}}
-	<div class="container">
+	<div class="container-expanded content">
 		<div class="row">
 			<div class="col-md-12">
 				{{> yield}}
 			</div>
+		</div>
+	</div>
+	<div class="row footer">
+		<div class="container-expanded">
+			<p>© 2016 <a href="https://dinsmoredesign.com" title="Dinsmore Design | We Build Brands">Dinsmore Design</a>, All Rights Reserved.</p>
 		</div>
 	</div>
 </template>
